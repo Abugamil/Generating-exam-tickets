@@ -3,6 +3,13 @@ The program generates exam tickets by template prepared questions. The questions
 
 The first time you run the program, it asks for the path to the list of questions. Each question is written on a new line, without numbering. The first field to enter is the number of required exam tickets. The second field is the number of topics in the ticket. The questions are evenly divided into topics.
 
+Mark keywords of template
+@ - left align
+$ - right align
+/## - automatic numbering 
+&&& - questions
+
+
 Example template and questions are presented in the data folder.
 
 Borland Deplhi )
